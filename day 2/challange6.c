@@ -3,7 +3,6 @@
 int main() {
     int note;
     int valeur;  
-    int a,b,c,d,f;
     printf("Entrez une note numerique : ");
     scanf("%d", &note);
 
@@ -16,7 +15,7 @@ int main() {
     } else if (note >= 60 && note <= 69) {
        valeur = 'd';  
     } else if(note >= 0 && note <= 59)  {
-        valeur = 'd';
+        valeur = 'f';
     }else{
         printf("ereur:");
         return 0;
